@@ -6,7 +6,7 @@ let arr = [];
 function onclick(el) {
     arr[el.id] = arr[el.id] === 1 ? 0 : 1;
     const div = document.getElementById(el.id);
-    div.style.backgroundColor = arr[el.id] === 1 ? 'lightseagreen' : 'aqua';
+    div.style.backgroundColor = arr[el.id] === 1 ? '#4caf50' : 'aqua';
 }
 
 function updateStudentsArray(NoOfStudents) {
