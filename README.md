@@ -24,4 +24,4 @@ git clone https://github.com/Shahzeb999/studentsDistributor.git
 # Navigate to the project directory
 cd studentsDistributor
 
-# Open main.html in your web browser
+# Open index.html in your web browser
