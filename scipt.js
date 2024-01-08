@@ -79,7 +79,7 @@ document.getElementById('numberOfTeachers').addEventListener('input', function (
     for (let i = 0; i < NoOfTeachers; i++) {
         const div = document.createElement("div");
         div.id = `Teacher${i+1}`;
-        div.innerHTML = `<h3>Teacher ${i+1}: ${ans[i]}</h3>`;
+        div.innerHTML = `<h3>Teacher ${i+1}: ${ans[i].sort()}</h3>`;
         disributed.append(div);
         console.log(div);
     }
